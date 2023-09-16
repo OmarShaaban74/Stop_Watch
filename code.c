@@ -123,13 +123,11 @@ int main(void){
 			flag=0;
 			time_counter();
 		}
-		if(flag==2){
+		if(flag==2 || tick[HR2]==10 ){
 			flag=0;
 			reset();
 		}
-		if (tick[HR2]==10){
-			reset();
-		}
+		
 
 	}
 }
